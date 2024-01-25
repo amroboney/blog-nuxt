@@ -1,26 +1,23 @@
-
-import type { NuxtLink } from '#build/components';
 <template>
     <div>
-        <Header>
-            <nav>
-                <NuxtLink to="/"> Home </NuxtLink>
-                <NuxtLink to="/about"> About </NuxtLink>
+        <header class="shadow-sm bg-white">
+            <nav class="container mx-auto p-4 flex justify-between">
+                <NuxtLink :to="localePath('/')" class="font-bold"> Blogs </NuxtLink>
+                <ul class="flex gap-4">
+                    <li> <NuxtLink :to="localePath('/')">{{ $t('blogs') }}  </NuxtLink> </li>
+                    <li> <LangSwatcher />  </li>                   
+                </ul> 
             </nav>
-        </Header>
+        </header>
     </div>
 </template>
 
-<script>
-export default {
-    setup () {
-        
+<script setup>
 
-        return {}
-    }
-}
 </script>
 
 <style   scoped>
-
+    .router-link-exact-active {
+        color: green;
+    }
 </style>

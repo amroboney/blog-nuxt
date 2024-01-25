@@ -1,34 +1,15 @@
 <template>
-    <div>
-        <header class="shadow-sm bg-white">
-            <nav class="container mx-auto p-4 flex justify-between">
-                <NuxtLink to="/" class="font-bold"> Blogs </NuxtLink>
-                <ul class="flex gap-4">
-                    <li> <NuxtLink to="/"> Home </NuxtLink> </li>
-                    <li> <NuxtLink to="/about"> About </NuxtLink> </li>
-                </ul> 
-                
-                
-            </nav>
-        </header>
-
-        <div class="container mx-auto p-4">
+    <div :dir="locale == 'en-US' ? 'lrt' : 'rtl'" class="flex flex-col min-h-screen">
+        <Header />
+        
+        <div class="container mx-auto p-4 flex-grow">
             <slot />
         </div>
 
-
-        <footer class="container mx-auto p-4 flex justify-between border-t-2">
-            <ul class="flex gap-4">
-                <li> <NuxtLink to="/"> Home </NuxtLink> </li>
-                <li> <NuxtLink to="/about"> About </NuxtLink> </li>
-            </ul>     
-        </footer>
-        
+        <Footer />        
     </div>
 </template>
 
-<style scoped>
-    .router-link-exact-active {
-        color: green;
-    }
-</style>
+<script setup>
+const {locale} = useI18n()
+</script>

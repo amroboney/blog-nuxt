@@ -1,0 +1,35 @@
+export default {
+    type: 'type',
+    home: "Home",
+    about: "About us",
+    name: 'Name',
+    blog: 'Blog',
+    blogs: 'Blogs',
+    createBlog: 'Create Blog',
+    contact: 'Contact',
+    Menu: 'Menu',
+    createdBy: 'Created By',
+    email: 'Email',
+    title: 'Title',
+    description: 'Description',
+    author: 'Author',
+    createdName: 'Amro Abuelyaman',
+    readMore: 'Read More',
+    save: 'save',
+    selectTheType: 'Select The Type',
+    business: 'Business',
+    travel: 'Travel',
+    fitness: 'Fitness',
+    technology: 'technology',
+    date: 'Date',
+
+
+    arabicTitle: "Arabic Title",
+    arabicDescription: 'Arabic Description',
+    arabicAuthor: 'Arabic Author',
+
+    englishTitle: "English Title",
+    englishDescription: 'English Description',
+    englishAuthor: 'English Author',
+    dataNotFound: 'Data Not Found'
+};

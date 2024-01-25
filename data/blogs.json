@@ -1,0 +1,62 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title_en": "Introduction to Vue.js",
+            "title_ar": "مقدمة في فيو.جي.إس",
+            "description_en": "Vue.js is a progressive JavaScript framework for building user interfaces. It is designed to be incrementally adoptable, meaning you can integrate it into existing projects easily. The core library focuses on the view layer only, making it simple to pick up and integrate with other libraries. Vue.js also provides reactive data binding and a flexible component system, making it a versatile choice for web development.",
+            "description_ar": "فيو.جي.إس هو إطار JavaScript التقدمي المستخدم لبناء واجهات المستخدم. تم تصميمه ليكون قابلًا للتبني تدريجيًا، مما يعني أنه يمكنك دمجه بسهولة في المشاريع الحالية. يركز النواة الأساسية على طبقة العرض فقط، مما يجعله مناسبًا للتكامل مع مكتبات أخرى بسهولة. كما يوفر Vue.js ربط البيانات التفاعلي ونظام مرن للمكونات، مما يجعله خيارًا متعدد الاستخدامات لتطوير الويب.",
+            "author_en": "Amro Adil",
+            "author_ar": "عمرو عادل",
+            "created_date": "2024-01-25T17:02:52.754Z",
+            "section": "technology"
+        },
+        {
+            "id": 2,
+            "title_en": "Introduction to Vue.js",
+            "title_ar": "مقدمة في فيو.جي.إس",
+            "description_en": "Vue.js is a progressive JavaScript framework for building user interfaces. It is designed to be incrementally adoptable, meaning you can integrate it into existing projects easily. The core library focuses on the view layer only, making it simple to pick up and integrate with other libraries. Vue.js also provides reactive data binding and a flexible component system, making it a versatile choice for web development.",
+            "description_ar": "فيو.جي.إس هو إطار JavaScript التقدمي المستخدم لبناء واجهات المستخدم. تم تصميمه ليكون قابلًا للتبني تدريجيًا، مما يعني أنه يمكنك دمجه بسهولة في المشاريع الحالية. يركز النواة الأساسية على طبقة العرض فقط، مما يجعله مناسبًا للتكامل مع مكتبات أخرى بسهولة. كما يوفر Vue.js ربط البيانات التفاعلي ونظام مرن للمكونات، مما يجعله خيارًا متعدد الاستخدامات لتطوير الويب.",
+            "author_en": "Amro Adil",
+            "author_ar": "عمرو عادل",
+            "created_date": "2024-01-25T17:02:52.754Z",
+            "section": "technology"
+        },
+
+        {
+            "id": 3,
+            "title_en": "Introduction to Vue.js",
+            "title_ar": "مقدمة في فيو.جي.إس",
+            "description_en": "Vue.js is a progressive JavaScript framework for building user interfaces. It is designed to be incrementally adoptable, meaning you can integrate it into existing projects easily. The core library focuses on the view layer only, making it simple to pick up and integrate with other libraries. Vue.js also provides reactive data binding and a flexible component system, making it a versatile choice for web development.",
+            "description_ar": "فيو.جي.إس هو إطار JavaScript التقدمي المستخدم لبناء واجهات المستخدم. تم تصميمه ليكون قابلًا للتبني تدريجيًا، مما يعني أنه يمكنك دمجه بسهولة في المشاريع الحالية. يركز النواة الأساسية على طبقة العرض فقط، مما يجعله مناسبًا للتكامل مع مكتبات أخرى بسهولة. كما يوفر Vue.js ربط البيانات التفاعلي ونظام مرن للمكونات، مما يجعله خيارًا متعدد الاستخدامات لتطوير الويب.",
+            "author_en": "Amro Adil",
+            "author_ar": "عمرو عادل",
+            "created_date": "2024-01-25T17:02:52.754Z",
+            "section": "technology"
+        },
+
+        {
+            "id": 4,
+            "title_en": "Introduction to Vue.js",
+            "title_ar": "مقدمة في فيو.جي.إس",
+            "description_en": "Vue.js is a progressive JavaScript framework for building user interfaces. It is designed to be incrementally adoptable, meaning you can integrate it into existing projects easily. The core library focuses on the view layer only, making it simple to pick up and integrate with other libraries. Vue.js also provides reactive data binding and a flexible component system, making it a versatile choice for web development.",
+            "description_ar": "فيو.جي.إس هو إطار JavaScript التقدمي المستخدم لبناء واجهات المستخدم. تم تصميمه ليكون قابلًا للتبني تدريجيًا، مما يعني أنه يمكنك دمجه بسهولة في المشاريع الحالية. يركز النواة الأساسية على طبقة العرض فقط، مما يجعله مناسبًا للتكامل مع مكتبات أخرى بسهولة. كما يوفر Vue.js ربط البيانات التفاعلي ونظام مرن للمكونات، مما يجعله خيارًا متعدد الاستخدامات لتطوير الويب.",
+            "author_en": "Amro Adil",
+            "author_ar": "عمرو عادل",
+            "created_date": "2024-01-25T17:02:52.754Z",
+            "section": "technology"
+        },
+    
+        {
+            "id": 5,
+            "title_en": "The Beauty of Nature",
+            "title_ar": "جمال الطبيعة",
+            "description_en": "Exploring the wonders of nature is an enriching experience. From lush green forests to serene lakes and towering mountains, nature has a unique way of captivating our senses. Whether you are an adventurer seeking thrill or someone who appreciates quiet moments in nature, this blog post celebrates the beauty that surrounds us.",
+            "description_ar": "استكشاف عجائب الطبيعة هو تجربة غنية. من الغابات الخضراء النابضة بالحياة إلى البحيرات الهادئة والجبال الشاهقة، للطبيعة طريقة فريدة لجذب حواسنا. سواء كنت مغامرًا يبحث عن الإثارة أو شخصًا يقدر اللحظات الهادئة في الطبيعة، يحتفل هذا المقال بالجمال الذي يحيط بنا.",
+            "author_en": "Nour Ahmed",
+            "author_ar": "نور أحمد",
+            "created_date": "2024-01-25T17:02:52.754Z",
+            "section": "travel"
+        }
+    ]
+}

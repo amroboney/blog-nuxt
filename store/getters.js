@@ -1,5 +1,3 @@
-const getters = {
+export default {
     getBlogs(state) { return state.blogs },
 }
-
-export default getters;
