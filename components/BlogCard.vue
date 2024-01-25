@@ -2,21 +2,6 @@
 import type blogCartVue from './blogCart.vue';
 <template>
     <div class="card ">
-        <!-- amro -->
-        <!-- <NuxtLink :to="`/blog/${blog.id}`" > 
-            <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2">{{ blog.title }}</h5>
-        </NuxtLink>
-        <p class="mb-4 text-sm font-medium text-gray-500">Senior Editor</p> 
-
-        <p class="font-normal text-gray-700 mb-3">{{ blog.description }}</p>
-        
-        <NuxtLink :to="`/blog/${blog.id}`" > 
-        <a class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center" href="#">
-            Read more
-        </a>
-        </NuxtLink> -->
-
-
         <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div class="flex justify-between items-center mb-5 text-gray-500">
                 <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
@@ -24,7 +9,7 @@ import type blogCartVue from './blogCart.vue';
                     {{ $t(blog.section)}}
                 </span>
             </div>
-            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><NuxtLink :to="`/blog/${blog.id}`">{{ locale == 'en-US' ? blog.title_en : blog.title_ar  }}</NuxtLink></h2>
+            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><NuxtLink :to="localePath(`/blog/${blog.id}`)">{{ locale == 'en-US' ? blog.title_en : blog.title_ar  }}</NuxtLink></h2>
             <p class="mb-5 font-light text-gray-500 dark:text-gray-400"> {{ locale == 'en-US' ? blog.description_en.split(" ").slice(0,20).join(" ") : blog.description_ar.split(" ").slice(0,20).join(" ")  }} </p>
             <div class="flex justify-between items-center">
                 <div class="flex items-center space-x-4">
